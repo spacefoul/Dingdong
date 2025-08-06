@@ -11,9 +11,6 @@
 		804B38282E3C96E60047EB96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38272E3C96E60047EB96 /* ContentView.swift */; };
 		804B382A2E3C96E90047EB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804B38292E3C96E90047EB96 /* Assets.xcassets */; };
 		804B382D2E3C96E90047EB96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */; };
-		804B38372E3C96EA0047EB96 /* DingDongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38362E3C96EA0047EB96 /* DingDongTests.swift */; };
-		804B38412E3C96EA0047EB96 /* DingDongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38402E3C96EA0047EB96 /* DingDongUITests.swift */; };
-		804B38432E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */; };
 		804B38502E3C971F0047EB96 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B384F2E3C971F0047EB96 /* MainView.swift */; };
 		804B38522E4035F50047EB96 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38512E4035F50047EB96 /* Alarm.swift */; };
 		804B38542E40360D0047EB96 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38532E40360D0047EB96 /* AlarmView.swift */; };
@@ -62,10 +59,7 @@
 		804B38292E3C96E90047EB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		804B38322E3C96EA0047EB96 /* DingdongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		804B38362E3C96EA0047EB96 /* DingDongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongTests.swift; sourceTree = "<group>"; };
 		804B383C2E3C96EA0047EB96 /* DingdongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		804B38402E3C96EA0047EB96 /* DingDongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongUITests.swift; sourceTree = "<group>"; };
-		804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		804B384F2E3C971F0047EB96 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		804B38512E4035F50047EB96 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		804B38532E40360D0047EB96 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
@@ -120,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				804B38242E3C96E60047EB96 /* DingDong */,
-				804B38352E3C96EA0047EB96 /* DingDongTests */,
-				804B383F2E3C96EA0047EB96 /* DingDongUITests */,
 				804B38232E3C96E60047EB96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,23 +160,6 @@
 				804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		804B38352E3C96EA0047EB96 /* DingDongTests */ = {
-			isa = PBXGroup;
-			children = (
-				804B38362E3C96EA0047EB96 /* DingDongTests.swift */,
-			);
-			path = DingDongTests;
-			sourceTree = "<group>";
-		};
-		804B383F2E3C96EA0047EB96 /* DingDongUITests */ = {
-			isa = PBXGroup;
-			children = (
-				804B38402E3C96EA0047EB96 /* DingDongUITests.swift */,
-				804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */,
-			);
-			path = DingDongUITests;
 			sourceTree = "<group>";
 		};
 		804B386F2E403FE70047EB96 /* Delete */ = {
@@ -364,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804B38372E3C96EA0047EB96 /* DingDongTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804B38432E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift in Sources */,
-				804B38412E3C96EA0047EB96 /* DingDongUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
