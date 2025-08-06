@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804B38262E3C96E60047EB96 /* DingDongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38252E3C96E60047EB96 /* DingDongApp.swift */; };
+		804B38282E3C96E60047EB96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38272E3C96E60047EB96 /* ContentView.swift */; };
+		804B382A2E3C96E90047EB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804B38292E3C96E90047EB96 /* Assets.xcassets */; };
+		804B382D2E3C96E90047EB96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */; };
+		804B38372E3C96EA0047EB96 /* DingDongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38362E3C96EA0047EB96 /* DingDongTests.swift */; };
+		804B38412E3C96EA0047EB96 /* DingDongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38402E3C96EA0047EB96 /* DingDongUITests.swift */; };
+		804B38432E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */; };
+		804B38502E3C971F0047EB96 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B384F2E3C971F0047EB96 /* MainView.swift */; };
+		804B38522E4035F50047EB96 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38512E4035F50047EB96 /* Alarm.swift */; };
+		804B38542E40360D0047EB96 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38532E40360D0047EB96 /* AlarmView.swift */; };
+		804B38562E4036240047EB96 /* SwipeToDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38552E4036240047EB96 /* SwipeToDeleteView.swift */; };
+		804B38582E4036380047EB96 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38572E4036380047EB96 /* ToggleView.swift */; };
+		804B385A2E40364F0047EB96 /* AddAlarmCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38592E40364F0047EB96 /* AddAlarmCard.swift */; };
+		804B385C2E4036E10047EB96 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B385B2E4036E10047EB96 /* View+Placeholder.swift */; };
+		804B385E2E4037800047EB96 /* CalendarPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B385D2E4037800047EB96 /* CalendarPopup.swift */; };
+		804B38602E4037AC0047EB96 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B385F2E4037AC0047EB96 /* AddButton.swift */; };
+		804B38662E4038290047EB96 /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38652E4038290047EB96 /* AlarmListView.swift */; };
+		804B38682E403D940047EB96 /* AlarmCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38672E403D940047EB96 /* AlarmCardViews.swift */; };
+		804B386A2E403DD30047EB96 /* MainControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38692E403DD30047EB96 /* MainControls.swift */; };
+		804B386C2E403EF50047EB96 /* DateSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B386B2E403EF50047EB96 /* DateSelectors.swift */; };
+		804B38712E40442E0047EB96 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38702E40442E0047EB96 /* ThemeManager.swift */; };
+		804B38732E404FA40047EB96 /* ThemeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38722E404FA40047EB96 /* ThemeSettingsView.swift */; };
+		804B38752E408C6E0047EB96 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38742E408C6D0047EB96 /* KeyboardResponder.swift */; };
+		804B38772E4094080047EB96 /* AddAlarmOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38762E4094080047EB96 /* AddAlarmOverlay.swift */; };
+		804B38792E4095770047EB96 /* AddAlarmSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B38782E4095770047EB96 /* AddAlarmSheet.swift */; };
+		804B387B2E40A7700047EB96 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B387A2E40A7700047EB96 /* TopBar.swift */; };
+		804B387D2E40A7A60047EB96 /* WeekdaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B387C2E40A7A60047EB96 /* WeekdaySelector.swift */; };
+		804B387F2E42DC9A0047EB96 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B387E2E42DC9A0047EB96 /* LoginView.swift */; };
+		80674E5B2E430D8E00E10301 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80674E5A2E430D8E00E10301 /* AlarmViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		804B38332E3C96EA0047EB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804B381A2E3C96E60047EB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804B38212E3C96E60047EB96;
+			remoteInfo = DingDong;
+		};
+		804B383D2E3C96EA0047EB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804B381A2E3C96E60047EB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804B38212E3C96E60047EB96;
+			remoteInfo = DingDong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		804B38222E3C96E60047EB96 /* Dingdong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dingdong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804B38252E3C96E60047EB96 /* DingDongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongApp.swift; sourceTree = "<group>"; };
+		804B38272E3C96E60047EB96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		804B38292E3C96E90047EB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		804B38322E3C96EA0047EB96 /* DingdongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804B38362E3C96EA0047EB96 /* DingDongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongTests.swift; sourceTree = "<group>"; };
+		804B383C2E3C96EA0047EB96 /* DingdongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804B38402E3C96EA0047EB96 /* DingDongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongUITests.swift; sourceTree = "<group>"; };
+		804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		804B384F2E3C971F0047EB96 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		804B38512E4035F50047EB96 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		804B38532E40360D0047EB96 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		804B38552E4036240047EB96 /* SwipeToDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDeleteView.swift; sourceTree = "<group>"; };
+		804B38572E4036380047EB96 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		804B38592E40364F0047EB96 /* AddAlarmCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmCard.swift; sourceTree = "<group>"; };
+		804B385B2E4036E10047EB96 /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		804B385D2E4037800047EB96 /* CalendarPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPopup.swift; sourceTree = "<group>"; };
+		804B385F2E4037AC0047EB96 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		804B38652E4038290047EB96 /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		804B38672E403D940047EB96 /* AlarmCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCardViews.swift; sourceTree = "<group>"; };
+		804B38692E403DD30047EB96 /* MainControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControls.swift; sourceTree = "<group>"; };
+		804B386B2E403EF50047EB96 /* DateSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectors.swift; sourceTree = "<group>"; };
+		804B38702E40442E0047EB96 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		804B38722E404FA40047EB96 /* ThemeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsView.swift; sourceTree = "<group>"; };
+		804B38742E408C6D0047EB96 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		804B38762E4094080047EB96 /* AddAlarmOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmOverlay.swift; sourceTree = "<group>"; };
+		804B38782E4095770047EB96 /* AddAlarmSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmSheet.swift; sourceTree = "<group>"; };
+		804B387A2E40A7700047EB96 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		804B387C2E40A7A60047EB96 /* WeekdaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaySelector.swift; sourceTree = "<group>"; };
+		804B387E2E42DC9A0047EB96 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		804B38802E42DFCE0047EB96 /* DingDong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DingDong.entitlements; sourceTree = "<group>"; };
+		80674E5A2E430D8E00E10301 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804B381F2E3C96E60047EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B382F2E3C96EA0047EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B38392E3C96EA0047EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804B38192E3C96E60047EB96 = {
+			isa = PBXGroup;
+			children = (
+				804B38242E3C96E60047EB96 /* DingDong */,
+				804B38352E3C96EA0047EB96 /* DingDongTests */,
+				804B383F2E3C96EA0047EB96 /* DingDongUITests */,
+				804B38232E3C96E60047EB96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804B38232E3C96E60047EB96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804B38222E3C96E60047EB96 /* Dingdong.app */,
+				804B38322E3C96EA0047EB96 /* DingdongTests.xctest */,
+				804B383C2E3C96EA0047EB96 /* DingdongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804B38242E3C96E60047EB96 /* DingDong */ = {
+			isa = PBXGroup;
+			children = (
+				804B38802E42DFCE0047EB96 /* DingDong.entitlements */,
+				804B386F2E403FE70047EB96 /* Delete */,
+				804B38252E3C96E60047EB96 /* DingDongApp.swift */,
+				804B387E2E42DC9A0047EB96 /* LoginView.swift */,
+				804B384F2E3C971F0047EB96 /* MainView.swift */,
+				804B38702E40442E0047EB96 /* ThemeManager.swift */,
+				804B38722E404FA40047EB96 /* ThemeSettingsView.swift */,
+				804B38292E3C96E90047EB96 /* Assets.xcassets */,
+				804B382B2E3C96E90047EB96 /* Preview Content */,
+				804B38512E4035F50047EB96 /* Alarm.swift */,
+				80674E5A2E430D8E00E10301 /* AlarmViewModel.swift */,
+				804B38672E403D940047EB96 /* AlarmCardViews.swift */,
+				804B387A2E40A7700047EB96 /* TopBar.swift */,
+				804B387C2E40A7A60047EB96 /* WeekdaySelector.swift */,
+				804B385B2E4036E10047EB96 /* View+Placeholder.swift */,
+				804B38652E4038290047EB96 /* AlarmListView.swift */,
+				804B38692E403DD30047EB96 /* MainControls.swift */,
+				804B386B2E403EF50047EB96 /* DateSelectors.swift */,
+				804B38782E4095770047EB96 /* AddAlarmSheet.swift */,
+			);
+			path = DingDong;
+			sourceTree = "<group>";
+		};
+		804B382B2E3C96E90047EB96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				804B382C2E3C96E90047EB96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		804B38352E3C96EA0047EB96 /* DingDongTests */ = {
+			isa = PBXGroup;
+			children = (
+				804B38362E3C96EA0047EB96 /* DingDongTests.swift */,
+			);
+			path = DingDongTests;
+			sourceTree = "<group>";
+		};
+		804B383F2E3C96EA0047EB96 /* DingDongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				804B38402E3C96EA0047EB96 /* DingDongUITests.swift */,
+				804B38422E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift */,
+			);
+			path = DingDongUITests;
+			sourceTree = "<group>";
+		};
+		804B386F2E403FE70047EB96 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				804B38592E40364F0047EB96 /* AddAlarmCard.swift */,
+				804B38762E4094080047EB96 /* AddAlarmOverlay.swift */,
+				804B38742E408C6D0047EB96 /* KeyboardResponder.swift */,
+				804B38272E3C96E60047EB96 /* ContentView.swift */,
+				804B38532E40360D0047EB96 /* AlarmView.swift */,
+				804B38552E4036240047EB96 /* SwipeToDeleteView.swift */,
+				804B38572E4036380047EB96 /* ToggleView.swift */,
+				804B385D2E4037800047EB96 /* CalendarPopup.swift */,
+				804B385F2E4037AC0047EB96 /* AddButton.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804B38212E3C96E60047EB96 /* Dingdong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B38462E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "Dingdong" */;
+			buildPhases = (
+				804B381E2E3C96E60047EB96 /* Sources */,
+				804B381F2E3C96E60047EB96 /* Frameworks */,
+				804B38202E3C96E60047EB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dingdong;
+			productName = DingDong;
+			productReference = 804B38222E3C96E60047EB96 /* Dingdong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		804B38312E3C96EA0047EB96 /* DingdongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B38492E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "DingdongTests" */;
+			buildPhases = (
+				804B382E2E3C96EA0047EB96 /* Sources */,
+				804B382F2E3C96EA0047EB96 /* Frameworks */,
+				804B38302E3C96EA0047EB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804B38342E3C96EA0047EB96 /* PBXTargetDependency */,
+			);
+			name = DingdongTests;
+			productName = DingDongTests;
+			productReference = 804B38322E3C96EA0047EB96 /* DingdongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		804B383B2E3C96EA0047EB96 /* DingdongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B384C2E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "DingdongUITests" */;
+			buildPhases = (
+				804B38382E3C96EA0047EB96 /* Sources */,
+				804B38392E3C96EA0047EB96 /* Frameworks */,
+				804B383A2E3C96EA0047EB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804B383E2E3C96EA0047EB96 /* PBXTargetDependency */,
+			);
+			name = DingdongUITests;
+			productName = DingDongUITests;
+			productReference = 804B383C2E3C96EA0047EB96 /* DingdongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804B381A2E3C96E60047EB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					804B38212E3C96E60047EB96 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					804B38312E3C96EA0047EB96 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 804B38212E3C96E60047EB96;
+					};
+					804B383B2E3C96EA0047EB96 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 804B38212E3C96E60047EB96;
+					};
+				};
+			};
+			buildConfigurationList = 804B381D2E3C96E60047EB96 /* Build configuration list for PBXProject "Dingdong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804B38192E3C96E60047EB96;
+			productRefGroup = 804B38232E3C96E60047EB96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804B38212E3C96E60047EB96 /* Dingdong */,
+				804B38312E3C96EA0047EB96 /* DingdongTests */,
+				804B383B2E3C96EA0047EB96 /* DingdongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804B38202E3C96E60047EB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B382D2E3C96E90047EB96 /* Preview Assets.xcassets in Resources */,
+				804B382A2E3C96E90047EB96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B38302E3C96EA0047EB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B383A2E3C96EA0047EB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804B381E2E3C96E60047EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B38282E3C96E60047EB96 /* ContentView.swift in Sources */,
+				804B38502E3C971F0047EB96 /* MainView.swift in Sources */,
+				804B386C2E403EF50047EB96 /* DateSelectors.swift in Sources */,
+				804B38542E40360D0047EB96 /* AlarmView.swift in Sources */,
+				804B387F2E42DC9A0047EB96 /* LoginView.swift in Sources */,
+				804B38262E3C96E60047EB96 /* DingDongApp.swift in Sources */,
+				804B38712E40442E0047EB96 /* ThemeManager.swift in Sources */,
+				804B38522E4035F50047EB96 /* Alarm.swift in Sources */,
+				804B386A2E403DD30047EB96 /* MainControls.swift in Sources */,
+				804B385A2E40364F0047EB96 /* AddAlarmCard.swift in Sources */,
+				804B38732E404FA40047EB96 /* ThemeSettingsView.swift in Sources */,
+				804B38602E4037AC0047EB96 /* AddButton.swift in Sources */,
+				804B38682E403D940047EB96 /* AlarmCardViews.swift in Sources */,
+				804B38752E408C6E0047EB96 /* KeyboardResponder.swift in Sources */,
+				804B385C2E4036E10047EB96 /* View+Placeholder.swift in Sources */,
+				804B387B2E40A7700047EB96 /* TopBar.swift in Sources */,
+				80674E5B2E430D8E00E10301 /* AlarmViewModel.swift in Sources */,
+				804B38562E4036240047EB96 /* SwipeToDeleteView.swift in Sources */,
+				804B38792E4095770047EB96 /* AddAlarmSheet.swift in Sources */,
+				804B385E2E4037800047EB96 /* CalendarPopup.swift in Sources */,
+				804B38772E4094080047EB96 /* AddAlarmOverlay.swift in Sources */,
+				804B387D2E40A7A60047EB96 /* WeekdaySelector.swift in Sources */,
+				804B38662E4038290047EB96 /* AlarmListView.swift in Sources */,
+				804B38582E4036380047EB96 /* ToggleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B382E2E3C96EA0047EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B38372E3C96EA0047EB96 /* DingDongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B38382E3C96EA0047EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B38432E3C96EA0047EB96 /* DingDongUITestsLaunchTests.swift in Sources */,
+				804B38412E3C96EA0047EB96 /* DingDongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		804B38342E3C96EA0047EB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804B38212E3C96E60047EB96 /* Dingdong */;
+			targetProxy = 804B38332E3C96EA0047EB96 /* PBXContainerItemProxy */;
+		};
+		804B383E2E3C96EA0047EB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804B38212E3C96E60047EB96 /* Dingdong */;
+			targetProxy = 804B383D2E3C96EA0047EB96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		804B38442E3C96EA0047EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		804B38452E3C96EA0047EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804B38472E3C96EA0047EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DingDong/DingDong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DingDong/Preview Content\"";
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		804B38482E3C96EA0047EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DingDong/DingDong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DingDong/Preview Content\"";
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		804B384A2E3C96EA0047EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dingdong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dingdong";
+			};
+			name = Debug;
+		};
+		804B384B2E3C96EA0047EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dingdong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dingdong";
+			};
+			name = Release;
+		};
+		804B384D2E3C96EA0047EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DingDong;
+			};
+			name = Debug;
+		};
+		804B384E2E3C96EA0047EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingDongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DingDong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804B381D2E3C96E60047EB96 /* Build configuration list for PBXProject "Dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B38442E3C96EA0047EB96 /* Debug */,
+				804B38452E3C96EA0047EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B38462E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "Dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B38472E3C96EA0047EB96 /* Debug */,
+				804B38482E3C96EA0047EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B38492E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "DingdongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B384A2E3C96EA0047EB96 /* Debug */,
+				804B384B2E3C96EA0047EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B384C2E3C96EA0047EB96 /* Build configuration list for PBXNativeTarget "DingdongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B384D2E3C96EA0047EB96 /* Debug */,
+				804B384E2E3C96EA0047EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804B381A2E3C96E60047EB96 /* Project object */;
+}
