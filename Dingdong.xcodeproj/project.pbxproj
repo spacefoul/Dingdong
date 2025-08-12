@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8063C7FA2E4AC61D005FEDFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8063C7F92E4AC61C005FEDFD /* GoogleService-Info.plist */; };
+		80A273592E45B2030018ED1A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 80A273582E45B2030018ED1A /* FirebaseCore */; };
+		80A2735B2E45B2410018ED1A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 80A2735A2E45B2410018ED1A /* FirebaseMessaging */; };
+		80D565342E457FD7001DFB9E /* DingdongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565332E457FD7001DFB9E /* DingdongApp.swift */; };
+		80D565362E457FD7001DFB9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565352E457FD7001DFB9E /* ContentView.swift */; };
+		80D565382E457FDA001DFB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D565372E457FDA001DFB9E /* Assets.xcassets */; };
+		80D5653B2E457FDA001DFB9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D5653A2E457FDA001DFB9E /* Preview Assets.xcassets */; };
+		80D565452E457FDA001DFB9E /* DingdongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565442E457FDA001DFB9E /* DingdongTests.swift */; };
+		80D5654F2E457FDA001DFB9E /* DingdongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5654E2E457FDA001DFB9E /* DingdongUITests.swift */; };
+		80D565512E457FDA001DFB9E /* DingdongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565502E457FDA001DFB9E /* DingdongUITestsLaunchTests.swift */; };
+		80D5655E2E457FFE001DFB9E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5655D2E457FFE001DFB9E /* LoginView.swift */; };
+		80D565602E458013001DFB9E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5655F2E458013001DFB9E /* MainView.swift */; };
+		80D565622E458038001DFB9E /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565612E458038001DFB9E /* ThemeManager.swift */; };
+		80D565642E458056001DFB9E /* ThemeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565632E458056001DFB9E /* ThemeSettingsView.swift */; };
+		80D565662E458076001DFB9E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565652E458076001DFB9E /* Alarm.swift */; };
+		80D565682E458096001DFB9E /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565672E458096001DFB9E /* AlarmViewModel.swift */; };
+		80D5656A2E4580AC001DFB9E /* AlarmCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565692E4580AC001DFB9E /* AlarmCardViews.swift */; };
+		80D5656C2E4580DD001DFB9E /* Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5656B2E4580DC001DFB9E /* Topbar.swift */; };
+		80D5656E2E4580F7001DFB9E /* WeedaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5656D2E4580F7001DFB9E /* WeedaySelector.swift */; };
+		80D565702E45811C001DFB9E /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5656F2E45811C001DFB9E /* View+Placeholder.swift */; };
+		80D565722E458232001DFB9E /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565712E458232001DFB9E /* AlarmListView.swift */; };
+		80D565742E458310001DFB9E /* MainControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565732E458310001DFB9E /* MainControls.swift */; };
+		80D565762E458340001DFB9E /* DateSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565752E458340001DFB9E /* DateSelectors.swift */; };
+		80D565782E45834E001DFB9E /* AddAlarmSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D565772E45834E001DFB9E /* AddAlarmSheet.swift */; };
+		80DAA3C12E45DB98003DC862 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 80DAA3C02E45DB98003DC862 /* FirebaseFirestore */; };
+		80DAA3C32E45DC68003DC862 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 80DAA3C22E45DC68003DC862 /* FirebaseFirestore */; };
+		80DAA3C52E498951003DC862 /* AppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DAA3C42E498948003DC862 /* AppleSignIn.swift */; };
+		80DAA3C72E498DA9003DC862 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 80DAA3C62E498DA9003DC862 /* FirebaseAuth */; };
+		80DAA3C92E49A9BB003DC862 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DAA3C82E49A9B2003DC862 /* LocalNotification.swift */; };
+		80E067F92E49D3CE00E45937 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 80E067F82E49D3CE00E45937 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D565412E457FDA001DFB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D565282E457FD7001DFB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D5652F2E457FD7001DFB9E;
+			remoteInfo = Dingdong;
+		};
+		80D5654B2E457FDA001DFB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D565282E457FD7001DFB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D5652F2E457FD7001DFB9E;
+			remoteInfo = Dingdong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8063C7F82E49E5A1005FEDFD /* Dingdong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dingdong.entitlements; sourceTree = "<group>"; };
+		8063C7F92E4AC61C005FEDFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80D565302E457FD7001DFB9E /* Dingdong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dingdong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D565332E457FD7001DFB9E /* DingdongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdongApp.swift; sourceTree = "<group>"; };
+		80D565352E457FD7001DFB9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80D565372E457FDA001DFB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D5653A2E457FDA001DFB9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80D565402E457FDA001DFB9E /* DingdongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D565442E457FDA001DFB9E /* DingdongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdongTests.swift; sourceTree = "<group>"; };
+		80D5654A2E457FDA001DFB9E /* DingdongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D5654E2E457FDA001DFB9E /* DingdongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdongUITests.swift; sourceTree = "<group>"; };
+		80D565502E457FDA001DFB9E /* DingdongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingdongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80D5655D2E457FFE001DFB9E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		80D5655F2E458013001DFB9E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		80D565612E458038001DFB9E /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		80D565632E458056001DFB9E /* ThemeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsView.swift; sourceTree = "<group>"; };
+		80D565652E458076001DFB9E /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		80D565672E458096001DFB9E /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		80D565692E4580AC001DFB9E /* AlarmCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCardViews.swift; sourceTree = "<group>"; };
+		80D5656B2E4580DC001DFB9E /* Topbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topbar.swift; sourceTree = "<group>"; };
+		80D5656D2E4580F7001DFB9E /* WeedaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeedaySelector.swift; sourceTree = "<group>"; };
+		80D5656F2E45811C001DFB9E /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		80D565712E458232001DFB9E /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		80D565732E458310001DFB9E /* MainControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControls.swift; sourceTree = "<group>"; };
+		80D565752E458340001DFB9E /* DateSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectors.swift; sourceTree = "<group>"; };
+		80D565772E45834E001DFB9E /* AddAlarmSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmSheet.swift; sourceTree = "<group>"; };
+		80DAA3C42E498948003DC862 /* AppleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignIn.swift; sourceTree = "<group>"; };
+		80DAA3C82E49A9B2003DC862 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		80DAA3CA2E49AC2D003DC862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D5652D2E457FD7001DFB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A2735B2E45B2410018ED1A /* FirebaseMessaging in Frameworks */,
+				80DAA3C72E498DA9003DC862 /* FirebaseAuth in Frameworks */,
+				80DAA3C32E45DC68003DC862 /* FirebaseFirestore in Frameworks */,
+				80A273592E45B2030018ED1A /* FirebaseCore in Frameworks */,
+				80DAA3C12E45DB98003DC862 /* FirebaseFirestore in Frameworks */,
+				80E067F92E49D3CE00E45937 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5653D2E457FDA001DFB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D565472E457FDA001DFB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A273572E45B2030018ED1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D565272E457FD7001DFB9E = {
+			isa = PBXGroup;
+			children = (
+				80D565322E457FD7001DFB9E /* Dingdong */,
+				80D565432E457FDA001DFB9E /* DingdongTests */,
+				80D5654D2E457FDA001DFB9E /* DingdongUITests */,
+				80A273572E45B2030018ED1A /* Frameworks */,
+				80D565312E457FD7001DFB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D565312E457FD7001DFB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D565302E457FD7001DFB9E /* Dingdong.app */,
+				80D565402E457FDA001DFB9E /* DingdongTests.xctest */,
+				80D5654A2E457FDA001DFB9E /* DingdongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D565322E457FD7001DFB9E /* Dingdong */ = {
+			isa = PBXGroup;
+			children = (
+				8063C7F82E49E5A1005FEDFD /* Dingdong.entitlements */,
+				80DAA3CA2E49AC2D003DC862 /* Info.plist */,
+				80DAA3C82E49A9B2003DC862 /* LocalNotification.swift */,
+				80DAA3C42E498948003DC862 /* AppleSignIn.swift */,
+				80D565332E457FD7001DFB9E /* DingdongApp.swift */,
+				80D5655D2E457FFE001DFB9E /* LoginView.swift */,
+				80D565692E4580AC001DFB9E /* AlarmCardViews.swift */,
+				80D565352E457FD7001DFB9E /* ContentView.swift */,
+				80D565372E457FDA001DFB9E /* Assets.xcassets */,
+				80D565392E457FDA001DFB9E /* Preview Content */,
+				80D5655F2E458013001DFB9E /* MainView.swift */,
+				80D565612E458038001DFB9E /* ThemeManager.swift */,
+				80D565632E458056001DFB9E /* ThemeSettingsView.swift */,
+				80D565652E458076001DFB9E /* Alarm.swift */,
+				80D565672E458096001DFB9E /* AlarmViewModel.swift */,
+				80D5656B2E4580DC001DFB9E /* Topbar.swift */,
+				80D5656D2E4580F7001DFB9E /* WeedaySelector.swift */,
+				80D5656F2E45811C001DFB9E /* View+Placeholder.swift */,
+				80D565712E458232001DFB9E /* AlarmListView.swift */,
+				80D565732E458310001DFB9E /* MainControls.swift */,
+				80D565752E458340001DFB9E /* DateSelectors.swift */,
+				80D565772E45834E001DFB9E /* AddAlarmSheet.swift */,
+				8063C7F92E4AC61C005FEDFD /* GoogleService-Info.plist */,
+			);
+			path = Dingdong;
+			sourceTree = "<group>";
+		};
+		80D565392E457FDA001DFB9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80D5653A2E457FDA001DFB9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80D565432E457FDA001DFB9E /* DingdongTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D565442E457FDA001DFB9E /* DingdongTests.swift */,
+			);
+			path = DingdongTests;
+			sourceTree = "<group>";
+		};
+		80D5654D2E457FDA001DFB9E /* DingdongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D5654E2E457FDA001DFB9E /* DingdongUITests.swift */,
+				80D565502E457FDA001DFB9E /* DingdongUITestsLaunchTests.swift */,
+			);
+			path = DingdongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D5652F2E457FD7001DFB9E /* Dingdong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D565542E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "Dingdong" */;
+			buildPhases = (
+				80D5652C2E457FD7001DFB9E /* Sources */,
+				80D5652D2E457FD7001DFB9E /* Frameworks */,
+				80D5652E2E457FD7001DFB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dingdong;
+			productName = Dingdong;
+			productReference = 80D565302E457FD7001DFB9E /* Dingdong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D5653F2E457FDA001DFB9E /* DingdongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D565572E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "DingdongTests" */;
+			buildPhases = (
+				80D5653C2E457FDA001DFB9E /* Sources */,
+				80D5653D2E457FDA001DFB9E /* Frameworks */,
+				80D5653E2E457FDA001DFB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D565422E457FDA001DFB9E /* PBXTargetDependency */,
+			);
+			name = DingdongTests;
+			productName = DingdongTests;
+			productReference = 80D565402E457FDA001DFB9E /* DingdongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D565492E457FDA001DFB9E /* DingdongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D5655A2E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "DingdongUITests" */;
+			buildPhases = (
+				80D565462E457FDA001DFB9E /* Sources */,
+				80D565472E457FDA001DFB9E /* Frameworks */,
+				80D565482E457FDA001DFB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D5654C2E457FDA001DFB9E /* PBXTargetDependency */,
+			);
+			name = DingdongUITests;
+			productName = DingdongUITests;
+			productReference = 80D5654A2E457FDA001DFB9E /* DingdongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D565282E457FD7001DFB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					80D5652F2E457FD7001DFB9E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					80D5653F2E457FDA001DFB9E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 80D5652F2E457FD7001DFB9E;
+					};
+					80D565492E457FDA001DFB9E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 80D5652F2E457FD7001DFB9E;
+					};
+				};
+			};
+			buildConfigurationList = 80D5652B2E457FD7001DFB9E /* Build configuration list for PBXProject "Dingdong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D565272E457FD7001DFB9E;
+			packageReferences = (
+				80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 80D565312E457FD7001DFB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D5652F2E457FD7001DFB9E /* Dingdong */,
+				80D5653F2E457FDA001DFB9E /* DingdongTests */,
+				80D565492E457FDA001DFB9E /* DingdongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D5652E2E457FD7001DFB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5653B2E457FDA001DFB9E /* Preview Assets.xcassets in Resources */,
+				80D565382E457FDA001DFB9E /* Assets.xcassets in Resources */,
+				8063C7FA2E4AC61D005FEDFD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5653E2E457FDA001DFB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D565482E457FDA001DFB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D5652C2E457FD7001DFB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D565682E458096001DFB9E /* AlarmViewModel.swift in Sources */,
+				80D565762E458340001DFB9E /* DateSelectors.swift in Sources */,
+				80DAA3C52E498951003DC862 /* AppleSignIn.swift in Sources */,
+				80D5655E2E457FFE001DFB9E /* LoginView.swift in Sources */,
+				80D565642E458056001DFB9E /* ThemeSettingsView.swift in Sources */,
+				80D565602E458013001DFB9E /* MainView.swift in Sources */,
+				80D565622E458038001DFB9E /* ThemeManager.swift in Sources */,
+				80D565722E458232001DFB9E /* AlarmListView.swift in Sources */,
+				80D5656A2E4580AC001DFB9E /* AlarmCardViews.swift in Sources */,
+				80D565702E45811C001DFB9E /* View+Placeholder.swift in Sources */,
+				80D565742E458310001DFB9E /* MainControls.swift in Sources */,
+				80D565362E457FD7001DFB9E /* ContentView.swift in Sources */,
+				80D565662E458076001DFB9E /* Alarm.swift in Sources */,
+				80D5656E2E4580F7001DFB9E /* WeedaySelector.swift in Sources */,
+				80DAA3C92E49A9BB003DC862 /* LocalNotification.swift in Sources */,
+				80D565782E45834E001DFB9E /* AddAlarmSheet.swift in Sources */,
+				80D565342E457FD7001DFB9E /* DingdongApp.swift in Sources */,
+				80D5656C2E4580DD001DFB9E /* Topbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5653C2E457FDA001DFB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D565452E457FDA001DFB9E /* DingdongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D565462E457FDA001DFB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D565512E457FDA001DFB9E /* DingdongUITestsLaunchTests.swift in Sources */,
+				80D5654F2E457FDA001DFB9E /* DingdongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D565422E457FDA001DFB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D5652F2E457FD7001DFB9E /* Dingdong */;
+			targetProxy = 80D565412E457FDA001DFB9E /* PBXContainerItemProxy */;
+		};
+		80D5654C2E457FDA001DFB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D5652F2E457FD7001DFB9E /* Dingdong */;
+			targetProxy = 80D5654B2E457FDA001DFB9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80D565522E457FDA001DFB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D565532E457FDA001DFB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D565552E457FDA001DFB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dingdong/Dingdong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dingdong/Preview Content\"";
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dingdong/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.Dingdong2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D565562E457FDA001DFB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dingdong/Dingdong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dingdong/Preview Content\"";
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dingdong/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.Dingdong2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80D565582E457FDA001DFB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingdongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dingdong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dingdong";
+			};
+			name = Debug;
+		};
+		80D565592E457FDA001DFB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingdongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dingdong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dingdong";
+			};
+			name = Release;
+		};
+		80D5655B2E457FDA001DFB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingdongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dingdong;
+			};
+			name = Debug;
+		};
+		80D5655C2E457FDA001DFB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75C2R8CPG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lipeuoo.DingdongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dingdong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D5652B2E457FD7001DFB9E /* Build configuration list for PBXProject "Dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D565522E457FDA001DFB9E /* Debug */,
+				80D565532E457FDA001DFB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D565542E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "Dingdong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D565552E457FDA001DFB9E /* Debug */,
+				80D565562E457FDA001DFB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D565572E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "DingdongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D565582E457FDA001DFB9E /* Debug */,
+				80D565592E457FDA001DFB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D5655A2E457FDA001DFB9E /* Build configuration list for PBXNativeTarget "DingdongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D5655B2E457FDA001DFB9E /* Debug */,
+				80D5655C2E457FDA001DFB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80A273582E45B2030018ED1A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		80A2735A2E45B2410018ED1A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		80DAA3C02E45DB98003DC862 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		80DAA3C22E45DC68003DC862 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		80DAA3C62E498DA9003DC862 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		80E067F82E49D3CE00E45937 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D565792E458480001DFB9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80D565282E457FD7001DFB9E /* Project object */;
+}
