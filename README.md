@@ -59,9 +59,3 @@
 📍 **출시 예정 플랫폼**: iOS (앱스토어 등록 예정)
 
 ---
-
-원하시면 제가 지금 주신 캡처에 맞춰
-`docs/screenshot_main.png`, `docs/screenshot_add.png`, `docs/screenshot_theme.png`
-형식으로 **README에 바로 들어갈 예쁜 미리보기 이미지**까지 만들어 드릴 수 있습니다.
-
-그대로 해드릴까요? 그러면 GitHub랑 앱스토어 홍보 둘 다 한 번에 해결됩니다.
