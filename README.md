@@ -25,7 +25,7 @@
 | ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------- |
 | <img width="300" alt="simulator_screenshot_326EBB89-4094-41A6-AEF5-E11F1F289214" src="https://github.com/user-attachments/assets/760e66ff-2583-4153-9f41-658013fac5e2" />
  |<img width="300" alt="simulator_screenshot_7E8C0E4F-0008-4ECC-9E0A-5E30AF599490" src="https://github.com/user-attachments/assets/98fbfd87-072f-4b07-83eb-e2d284cfb2f4" />
-  |<img width="1179" height="2556" alt="simulator_screenshot_6106F3A9-3053-489E-845F-151396A5D3C5" src="https://github.com/user-attachments/assets/cec0c920-5062-4ec5-ba15-ce7041ad6fbe" />
+  |<img width="300" alt="simulator_screenshot_6106F3A9-3053-489E-845F-151396A5D3C5" src="https://github.com/user-attachments/assets/cec0c920-5062-4ec5-ba15-ce7041ad6fbe" />
  |
 
 ---
